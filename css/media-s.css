@@ -1,0 +1,294 @@
+header {
+    background: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 545px;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_logo {
+   margin-right: 0px; 
+}
+
+.header_nav_a {
+    display: none;
+}
+
+ .dropdown_btn{
+    margin-top: 20px;
+    display: block;
+    width: 245px;
+    height: 50px;
+    background-color: rgba(53, 30, 52, 0.7);
+    text-align: center;
+    z-index: 10;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+.dropdown_btn a{
+    line-height: 50px;
+    font-family: LeagueGothic-Regular;
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    color: snow;
+    text-transform: uppercase;
+    text-shadow:1px  1px 2px black;
+    text-decoration: none;
+}
+
+.dropdown_btn a:hover{
+    text-decoration: underline #edbfff;
+  }
+
+summary::-webkit-details-marker {
+    display: none;
+  }
+
+.dropdown_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+  }
+
+.dropdown_menu:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown_menu a {
+    width: 245px;
+    height: 50px;
+    background-color: rgba(53, 30, 52, 0.7);
+    text-align: center;
+    border-bottom: 2px solid violet;
+}
+
+.dropdown_menu a:hover{
+    background-color: rgba(16, 3, 25, 0.7);
+  }
+
+.blur_container {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.container2 {
+    max-width: 480px;
+}
+
+.container_prg1 {
+    font-size: 35px;
+}
+
+.container_prg2 {
+    color: #edbfff;
+    font-family: LeagueGothic-Regular;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.container_txt_p {
+    display: none;
+}
+
+.iphone1 {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 300px;
+    width: 100px;
+}
+
+.iphone {
+    position: absolute;
+    z-index: 2;
+    left: 350px;
+    top: -13px;
+    width: 110px;
+}
+
+.circle {
+    position: absolute;
+    z-index: 3;
+    top: 85px;
+    left: 380px;
+    width: 50px;
+}
+
+circle1 {
+    position: absolute;
+    z-index: 3;
+    top: 93px;
+    left: 388px;
+    width: 33px;
+}
+
+.circle2 {
+    position: absolute;
+    z-index: 4;
+    top: 68px;
+    left: 350px;
+}
+
+.section1 {
+    background: linear-gradient(180deg, #724f81 ,#33263b);
+    width: 100vw;
+    height: 595px;
+}
+
+.container3 {
+    max-width: 480px;
+    height: 550px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container3_box {
+    display: block;
+    padding-top: 70px;
+}
+
+.container3_about {
+    width: 270px;
+    display: inline;
+}
+
+.container3_txt {
+    width: 440px;
+}
+
+.section2 {
+    width: 100vw;
+    height: 750px;
+    background-color: #f9f9f9;
+}
+
+.container4 {
+    max-width: 480px;
+    height: 750px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container4_box {
+    display: block;
+    padding-top: 45px;
+}
+
+.section3 {
+    width: 100vw;
+    height: 230px;
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    outline: white;
+}
+
+.container5 {
+    max-width: 480px;
+    height: 240px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.logos {
+    width: 257px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section4 {
+    width: 100vw;
+    height: 670px;
+    background-color: #ececec;
+    box-shadow: 1px 1px 5px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.container6 {
+    max-width: 480px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container6_box {
+    width: 430px;
+    height: 200px;
+    display: inline-block;
+}
+
+.container6_row {
+    width: 420px;
+    height: 100%;
+}
+
+.container7 {
+    max-width: 480px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container7_box {
+    padding-top: 20px;
+    align-self: center;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+
+.footer_nav a {
+    font-family: LeagueGothic-Regular;
+    font-size: 1.1rem;
+    color: snow;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+.container7_p {
+   padding-top: 30px; 
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
