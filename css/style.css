@@ -40,6 +40,9 @@ header {
 .logo2 {
     color: #51395b;
     text-shadow: none;
+    position: relative;
+    top: 0.1vw;
+    left: 0.2vw;
 }
 
 .dropdown_btn{
@@ -90,6 +93,7 @@ header {
 .container_txt {
     width: 514px;
     padding-top: 80px;
+    padding-left: 90px;
     text-align: left;
 }
 
@@ -123,55 +127,47 @@ header {
     display: none;
 }
 
+.firstSlide {
+    position: relative;
+}
+
 figure {
-    position: absolute;
+    position: relative;
 }
 
 .iphone1 {
     position: absolute;
-    z-index: 100;
-    top: -27vh;
-    left: 30vw;
+    z-index: 1;
+    left: 649px;
+    top: -237px;
 }
 
 .iphone {
     position: absolute;
-    z-index: 200;
-    left: 33vw;
-    top: -38vh;
+    z-index: 1;
+    left: 699px;
+    top: -355px;
 }
 
 .circle {
     position: absolute;
     z-index: 300;
-    top: 140px;
-    left: 800px;
+    top: -188px;
+    left: 754px;
 }
 
 .circle1 {
     position: absolute;
     z-index: 300;
-    top: 150px;
-    left: 810px;
+    top: -174px;
+    left: 770px;
 }
 
 .circle2 {
     position: absolute;
-    z-index: 4000;
-    top: 135px;
-    left: 780px;
-}
-
-.scroll {
-    position: absolute;
-    top: 495px;
-    left: 715px;
-}
-
-.scroll2 {
-    position: absolute;
-    top: 493px;
-    left: 731px;
+    z-index: 999;
+    top: -191px;
+    left: 740px;
 }
 
 .section1 {
@@ -560,11 +556,11 @@ footer {
     background-size: 70%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 20vh;
-    left: 45vw;
+    top: 150px;
+    left: 1001px;
     cursor: pointer;
-    width: 30px;
-    height: 50px;
+    width: 46px;
+    height: 4vw;
 }
 
 .arrow_left {
@@ -572,11 +568,11 @@ footer {
     background-size: 70%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 20vh;
+    top: 150px;
     left: -5vw;
     cursor: pointer;
-    width: 30px;
-    height: 50px;
+    width: 3vw;
+    height: 54vw;
     z-index: 9999;
 }
 
